@@ -10,7 +10,7 @@ const bot = new TelegramBot(token, {
 const obj = {}
 
 const startGame = async chatId => {
-  await bot.sendMessage(
+  return bot.sendMessage(
     chatId,
     "Bot 0 dan 9 gacha son o`yladi, siz shu sonni topishga harakat qiling."
   )
